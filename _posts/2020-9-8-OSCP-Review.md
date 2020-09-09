@@ -53,3 +53,4 @@ These are resources that I referenced during my OSCP studies:
 | Infosec Prep Discord | Discord Server | https://discord.com/invite/mEtEFhp |
 | PortSwigger Web Academy | Guide | https://portswigger.net/web-security |
 | Linux Man Pages | Cheat Sheet | https://www.kernel.org/doc/man-pages/ |
+{:.mbtablestyle}
