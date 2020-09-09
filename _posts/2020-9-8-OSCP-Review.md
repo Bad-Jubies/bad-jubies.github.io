@@ -15,7 +15,7 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 These are resources that I referenced during my OSCP studies:
 
 | Name | Type | Link |
-| --- | --- | --- |
+| :--- | :---: | ---: |
 | Vulnhub Privesc Guide | Guide | https://github.com/Ignitetechnologies/Privilege-Escalation |
 | Pentest Monkey Reverse Shells | Cheat Sheet | http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet |
 | Total OSCP Guide | Cheat Sheet | https://sushant747.gitbooks.io/total-oscp-guide/content/ |
