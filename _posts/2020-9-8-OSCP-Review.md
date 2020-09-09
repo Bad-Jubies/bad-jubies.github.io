@@ -16,10 +16,10 @@ These are resources that I referenced during my OSCP studies:
 
 | Name | Type | Link |
 | :--- | :---: | ---: |
-| Vulnhub Privesc Guide | Guide | https://github.com/Ignitetechnologies/Privilege-Escalation |
-| Pentest Monkey Reverse Shells | Cheat Sheet | http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet |
-| Total OSCP Guide | Cheat Sheet | https://sushant747.gitbooks.io/total-oscp-guide/content/ |
-| winPEAS/linPEAS | Script | https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite |
+| [Vulnhub Privesc Guide](https://github.com/Ignitetechnologies/Privilege-Escalation) | Guide | 
+| [Pentest Monkey Reverse Shells](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) | Cheat Sheet| 
+| [Total OSCP Guide](https://sushant747.gitbooks.io/total-oscp-guide/content/) | Cheat Sheet |
+| [winPEAS/linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) | Script |  
 | Do Stack Buffer Overflow Good | Guide | https://github.com/justinsteven/dostackbufferoverflowgood/blob/master/dostackbufferoverflowgood_tutorial.pdf |
 | Enumeration Guide | Cheat Sheet | https://github.com/theonlykernel/enumeration/wiki |
 | Full MSSQL Injection PWNage | Guide | https://www.exploit-db.com/papers/12975 |
