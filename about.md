@@ -11,3 +11,6 @@ I have created this blog in an effort to improve my reporting and documentation 
 [Email - BadJubiesEmail@gmail.com](mailto:BadJubiesEmail@gmail.com)<br/>
 <br/>
 [Twitter](https://twitter.com/Bad_Jubies)
+
+[Hack The Box](https://app.hackthebox.eu/profile/252029)
+<script src="https://www.hackthebox.eu/badge/252029"></script>
