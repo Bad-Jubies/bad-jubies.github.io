@@ -39,7 +39,7 @@ After 3 days (which felt like an eternity) I received this glorious email:
 
 Earning my OSCP designation was a bitter sweet moment. I feel validated knowing that I have the technical know-how to pass the exam, but I miss the grind of chasing the certification. I still feel like a complete noob and intend on continuing my infosec education.
 
-I have recently started a Desktop support role, but intend to continue my infosec education. My goal for the remainder of 2020 is to learn more about web exploit development and earn my OSWE certification. I signed up to start Offensive Security's AWAE course in October and hope to be ready for the OSWE exam by December. 
+I have recently started a desktop support role, but intend to continue my infosec education. My goal for the remainder of 2020 is to learn more about web exploit development and earn my OSWE certification. I signed up to start Offensive Security's AWAE course in October and hope to be ready for the OSWE exam by December. 
 
 ## RESOURCES
 
