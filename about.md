@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I have created this blog in an effort to improve my reporting and documentation skills. I will be sharing anything I learn that I find to be interesting and noteworthy. Thanks for reading!
 
 ### Contact me
 
-[email@domain.com](mailto:BadJubiesEmail@gmail.com)
+[Email](mailto:BadJubiesEmail@gmail.com)
+[Twitter](https://twitter.com/Bad_Jubies)
