@@ -52,7 +52,7 @@ We'll start by looking at ways to transfer files from Kali to the remote hosts w
 
 # HTTP
 
-My go-to method for file transfers is http. It's so easy to spin up an http server in python and download the files to the target.   
+My go-to method for file transfers is HTTP. It's so easy to spin up an HTTP server in python and download the files to the target.   
 
 HTTP server in python 2:
 ```sh
@@ -64,11 +64,8 @@ HTTP server in python 3:
 python3 -m http.server <port>
 ```
 
-There's also a great tool called [updog](https://github.com/sc0tfree/updog) that adds more functionality to the SimpleHTTPServer module. Updog allows you to use SSL encryption and basic http authentication on y
+There's also a great tool called [updog](https://github.com/sc0tfree/updog) that adds more functionality to the SimpleHTTPServer module. Updog allows for SSL encryption and basic HTTP authentication on the python server.
 
-
-
-file server. 
 ```sh
 updog -d <directory> -p <port>
 ```
