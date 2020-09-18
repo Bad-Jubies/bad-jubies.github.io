@@ -141,7 +141,7 @@ Let's break down what's happening with this command:
   - `-Command`: Command to be executed
   - `IEX`: This is an alias for Invoke-Expression. Invoke-Expression runs a given string as a command and returns the results. 
   - `New-Object Net.WebClient`: Creates a webclient .NET object - [Read more here](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient?view=netcore-3.1)
-  - `DownloadString`: The string to be executed by Invoke-Expression
+  - `DownloadString`: Downloads the string to be executed by Invoke-Expression
   - `Invoke-PowerShellTcp`: This is the name of the reverse shell function within the downloaded script. Changing the name of this function is sometimes sufficient enough to bypass AV if you are being blocked - you can read more about that [here](https://s3cur3th1ssh1t.github.io/Bypass_AMSI_by_manual_modification/).
 
 
