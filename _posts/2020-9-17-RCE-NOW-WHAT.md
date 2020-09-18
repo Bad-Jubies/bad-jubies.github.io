@@ -48,7 +48,7 @@ Because I'm lazy and don't want to worry about having to manually URL-encode eac
 # FILE TRANSFERS
 --- 
 
-We'll start by looking at ways to transfer files from Kali to the remote hosts with HTTP, SMB, FTP, and Base64 encoding.  
+We'll start by looking at ways to transfer files from Kali to the remote hosts with HTTP, SMB, and FTP.  
 
 # HTTP
 
