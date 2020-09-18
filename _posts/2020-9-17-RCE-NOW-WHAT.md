@@ -191,7 +191,7 @@ Although I rarely find myself using these, you can transfer files with [socat](h
 
 # FTP
 
-FTP file transfers are a piece of cake with the python pyftpdlib library. You can install the library with `pip install pyftpdlib`.
+FTP file transfers are a piece of cake with the python [pyftpdlib](https://github.com/giampaolo/pyftpdlib) module. You can install the library with `pip install pyftpdlib`.
 
 Once installed, you can start the server with the following command:
 ```sh
