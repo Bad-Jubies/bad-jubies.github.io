@@ -107,7 +107,7 @@ CertUtil: -URLCache command completed successfully.
 
 You can also save files from cmd with the `bitsadmin` binary:
 ```powershell
-bitsadmin /transfer debjob /download /priority normal <url of file> <location to save file>
+bitsadmin /transfer MyDownloadJob /download /priority normal <url of file> <location to save file>
 ```
 
 There is an active project called [Living Off The Land Binaries and Script (LOLBAS)](https://lolbas-project.github.io/#) that aims to catalog the functionality of each native Windows binary. 
