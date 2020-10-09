@@ -3,7 +3,7 @@ layout: post
 title: TryHackMe - Internal 
 ---
 
-[Internal](https://tryhackme.com/room/internal) is a room on TryHackMe where you get to perform a mock penetration test. The room's introduction provides the scope of the engagement:
+Internal is a room on TryHackMe where you get to perform a mock penetration test. The room's introduction provides the scope of the engagement:
 
 
 
@@ -22,7 +22,7 @@ Additionally, the client has provided the following scope allowances:
 - Submit the flags discovered to the dashboard
 - Only the IP address assigned to your machine is in scope
 
-
+[https://tryhackme.com/room/internal](https://tryhackme.com/room/internal)
 
 # ENUMERATION
 
