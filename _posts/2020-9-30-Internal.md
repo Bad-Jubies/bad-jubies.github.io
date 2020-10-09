@@ -48,7 +48,7 @@ PORT   STATE SERVICE REASON
 
 Navigating to `http://internal.thm` returns a default apache page.
 
-<img src="/images/Internal/apache.png" class="center-image" />
+<img src="/images/Internal/Apache.png" class="center-image" />
 
 Now I'll run gobuster to see if I can find any interesting directories on the webserver:
 ```
