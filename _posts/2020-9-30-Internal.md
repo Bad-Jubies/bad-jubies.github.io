@@ -25,7 +25,7 @@ Additionally, the client has provided the following scope allowances:
 [https://tryhackme.com/room/internal](https://tryhackme.com/room/internal)
 
 
-Credit to Joe Helle for creating this room [https://twitter.com/joehelle](https://twitter.com/joehelle)
+Credit to Joe Helle for creating this room - [https://twitter.com/joehelle](https://twitter.com/joehelle)
 
 
 # ENUMERATION
