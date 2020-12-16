@@ -253,6 +253,6 @@ And now I can ssh as root and grab the root flag :)
 
 # CONCLUSION
 
-Internal was a pretty easy room, but fun nonetheless. I enjoyed getting to learn more about Jenkins and sniping admin passwords. I plan on doing more TryHackMe room write-ups very soon. Thanks for reading!
+Internal was a pretty easy room, but fun nonetheless. I enjoyed getting to learn more about Jenkins and sniping admin passwords.
 
 Feel free to reach out to me [on Twitter](https://twitter.com/Bad_Jubies) if you have any questions.
