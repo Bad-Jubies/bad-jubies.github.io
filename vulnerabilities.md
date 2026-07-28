@@ -25,7 +25,7 @@ A running list of vulnerabilities I have discovered and their associated CVEs.
 
   <article class="vuln-entry">
     <a class="vuln-cve" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-49162">CVE-2026-49162</a>
-    <span class="vuln-summary">Microsoft Brokering File System use-after-free LPE</span>
+    <span class="vuln-summary">Windows Brokering File System use-after-free LPE</span>
     <span class="vuln-writeup"></span>
   </article>
 
