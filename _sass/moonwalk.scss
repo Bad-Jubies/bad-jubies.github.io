@@ -157,6 +157,49 @@ html.transition *:after {
   border-top: 1px var(--text) dashed;
   margin: 0.5em 0;
 }
+.site-footer {
+  margin-top: 4em;
+}
+.site-footer .horizontal-list {
+  margin-bottom: 0;
+}
+.vuln-list {
+  margin-top: 1.5em;
+  border-top: 1px var(--text-secondary) dashed;
+}
+.vuln-entry {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr auto;
+  gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.55rem 0;
+  border-bottom: 1px var(--text-secondary) dashed;
+  line-height: 1.45;
+}
+.vuln-cve,
+.vuln-writeup {
+  white-space: nowrap;
+}
+.vuln-cve {
+  font-family: "Roboto Mono", "Courier New", monospace;
+  font-size: 0.9rem;
+}
+.vuln-summary {
+  min-width: 0;
+}
+.vuln-muted {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 600px) {
+  .vuln-entry {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+  .vuln-writeup {
+    white-space: normal;
+  }
+}
 mark {
   padding: 0.4em;
   background-color: var(--highlight);
