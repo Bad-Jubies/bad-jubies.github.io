@@ -43,5 +43,5 @@ footer_entries:
   - title: GitHub
     url: https://github.com/Bad-Jubies
 
-  - title: Vulns/CVEs
+  - title: CVEs
     url: /vulnerabilities/
