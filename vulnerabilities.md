@@ -19,7 +19,7 @@ A running list of vulnerabilities I have discovered and their associated CVEs.
 
   <article class="vuln-entry">
     <a class="vuln-cve" href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-9025.html">CVE-2026-0466</a>
-    <span class="vuln-summary">AMD uProf kernel-shared memory write leading to crash or DoS</span>
+    <span class="vuln-summary">AMD uProf kernel arbitrary write</span>
     <span class="vuln-writeup"></span>
   </article>
 
