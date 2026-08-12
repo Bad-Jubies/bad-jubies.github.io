@@ -46,4 +46,16 @@ A running list of vulnerabilities I have discovered and their associated CVEs.
     <span class="vuln-summary">Windows Event Logging Service remote code execution</span>
     <span class="vuln-writeup"></span>
   </article>
+
+  <article class="vuln-entry">
+    <a class="vuln-cve" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59122">CVE-2026-59122</a>
+    <span class="vuln-summary">Windows Telephony Service use-after-free LPE</span>
+    <span class="vuln-writeup"></span>
+  </article>
+
+  <article class="vuln-entry">
+    <a class="vuln-cve" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62722">CVE-2026-62722</a>
+    <span class="vuln-summary">Windows Brokering File System heap overflow</span>
+    <span class="vuln-writeup"></span>
+  </article>
 </div>
